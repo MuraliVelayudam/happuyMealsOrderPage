@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bg-container{
+    background-image: url("./asserts/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.meal-card{
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    opacity: 0.9;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+
+.main-heading{
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+.btn{
+    border-radius: 25px;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
